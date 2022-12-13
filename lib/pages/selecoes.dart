@@ -45,7 +45,15 @@ class _SelecoesState extends State<Selecoes> {
                 ),
               );
             },
-          ))
+          )),
+          Center(
+            child: TextButton(
+              child: const Text('Cadastrar Jogador'),
+              onPressed: () {
+                Navigator.pushNamed(context, '/registerPlayer');
+              },
+            ),
+          )
         ],
       ),
       // body: Center(
