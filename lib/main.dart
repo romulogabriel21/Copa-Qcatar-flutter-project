@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/login',
       routes: {
         '/login': (context) => Login(),
-        '/selecoes': (context) => Selecoes(),
+        '/selecoes': (context) => const Selecoes(),
         '/registerSelecao': (context) => RegisterSelecao(),
         '/registerPlayer': (context) => RegisterPlayer(),
       },

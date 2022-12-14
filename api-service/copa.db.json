@@ -1,9 +1,16 @@
 {
-    "selecoes":[
-        {
-            "id": 1,
-            "name": "Brasil",
-            "players": []
-        }
-    ]
+  "selecoes": [
+    {
+      "id": 1,
+      "name": "Brasil"
+    },
+    {
+      "id": 2,
+      "name": "Alemanha"
+    },
+    {
+      "id": 3,
+      "name": "Croacia"
+    }
+  ]
 }
